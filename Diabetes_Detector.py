@@ -25,8 +25,6 @@ while True :
 
     new_info = (preg,glucose,bp,st,insulin,bmi,dpf,age)
 
-    new_info = (11,143,94,33,146,36.6,0.254,51)
-
     info_arr = np.asarray(new_info)
     update_arr = info_arr.reshape(1,-1)
     final_data = scaler.transform(update_arr)
